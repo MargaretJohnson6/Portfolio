@@ -1,0 +1,44 @@
+/*
+Desktop and defaults
+*/
+body {
+      background-color: #ffe7bf;
+}
+
+header {
+      text-align: center;
+      background-color: #f58a7d;
+}
+
+main {
+      text-align: center;
+}
+
+footer {
+      text-align: center;
+      background-color: #f58a7d;
+}
+
+.text-left {
+      text-align: left;
+}
+
+.text-right {
+      text-align: right;
+}
+
+/*
+Mobile and small screens
+
+@media only screen and (max-width: 600px) {
+      body {
+        background-size: 15%;
+        
+        width: 75%;
+        margin: auto;
+      }
+      
+      .content {
+        padding: 2%;
+      }
+      */
