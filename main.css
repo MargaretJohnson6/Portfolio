@@ -2,12 +2,12 @@
 Desktop and defaults
 */
 body {
-      background-color: #ffe7bf;
+      background-color: #ffffff;
 }
 
 header {
       text-align: center;
-      background-color: #f58a7d;
+      background-color: #ffe7bf;
 }
 
 main {
@@ -16,7 +16,7 @@ main {
 
 footer {
       text-align: center;
-      background-color: #f58a7d;
+      background-color: #ffe7bf;
 }
 
 .text-left {
