@@ -1,0 +1,72 @@
+/*
+Desktop and defaults
+*/
+body {
+      background-color: #ffffff;
+}
+
+header {
+      text-align: center;
+      background-color: #ffe7bf;
+}
+/**
+main {
+
+}
+**/
+footer {
+      text-align: center;
+      background-color: #ffe7bf;
+}
+
+h1 {
+      text-align: left;
+}
+
+h2 {
+      text-align: left;
+}
+
+p {
+      text-align: left;
+}
+
+
+.logo {
+      float: left;
+}
+
+.text-left {
+      text-align: left;
+}
+
+.text-right {
+      text-align: right;
+}
+
+.align-left {
+      float: left;
+      width: 50%;
+}
+
+.align-right {
+      float: right;
+      width: 50%;
+}
+
+
+/**Mobile and small screens**/
+
+@media only screen and (max-width: 600px) {
+      /**body {
+        background-size: 15%;
+        
+        width: 75%;
+        margin: auto;
+      }**/
+      
+      main {
+        padding: 2%;
+      }
+}
+      
