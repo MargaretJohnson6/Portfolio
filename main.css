@@ -61,10 +61,16 @@ main h2 {
 main figure {
       background-color: #ffe7bf;
       border-radius: 10%;
+      width:fit-content
 }
 
 main figure img {
       border-radius: 10%;
+      float: center;
+      padding: 1em;
+}
+
+main figure figcaption {
       padding: 1em;
 }
 
