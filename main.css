@@ -13,7 +13,7 @@ header {
       height:5em;
 }
 
-header nav ul {
+header nav {
       float: right;
       width: 50%;
       display: flex;
@@ -21,7 +21,7 @@ header nav ul {
       align-items: center;
 }
 
-header nav ul a {
+header nav a {
       list-style: none;
       font-family: 'Dosis', sans-serif;
       font-size: 220%;
