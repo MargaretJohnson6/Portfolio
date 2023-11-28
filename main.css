@@ -3,67 +3,82 @@ Desktop and defaults
 */
 body {
       background-color: #ffffff;
+      padding: 0%;
+      margin: 0%;
 }
 
+/** Header And navigation. **/
 header {
-      text-align: center;
       background-color: #ffe7bf;
+      height:5em;
 }
-/**
-main {
 
+header nav ul {
+      float: right;
+      width: 50%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
 }
-**/
+
+header nav ul li {
+      list-style: none;
+      font-family: 'Dosis', sans-serif;
+      font-size: 220%;
+      border: 1px;
+}
+header img {
+      float: left;
+      height: 40px;
+      margin-bottom: 1em;
+      margin-left: 1em;
+      margin-right: 1em;
+      position: absolute;
+      top: 1.8em;
+}
+
+/* Footer */
 footer {
       text-align: center;
       background-color: #ffe7bf;
+      margin: 0%;
 }
 
-h1 {
-      text-align: left;
+/* General content */
+main {
+      padding: 10%;
 }
 
-h2 {
-      text-align: left;
+/* Index specific */
+main h1 {
+      font-family: 'Dosis', sans-serif;
 }
 
-p {
-      text-align: left;
+main h2 {
+      font-family: 'Dosis', sans-serif;
 }
 
-
-.logo {
-      float: left;
+main figure {
+      background-color: #ffe7bf;
+      border-radius: 10%;
 }
 
-.text-left {
-      text-align: left;
+main figure img {
+      border-radius: 10%;
+      padding: 1em;
 }
 
-.text-right {
-      text-align: right;
+/** About me specifics **/
+.lineup  img{
+      height: 25px;
+      padding: 10px;
 }
 
-.align-left {
-      float: left;
-      width: 50%;
-}
-
-.align-right {
-      float: right;
-      width: 50%;
-}
-
+/* Gallery specifcs */
 
 /**Mobile and small screens**/
 
 @media only screen and (max-width: 600px) {
-      /**body {
-        background-size: 15%;
-        
-        width: 75%;
-        margin: auto;
-      }**/
       
       main {
         padding: 2%;
